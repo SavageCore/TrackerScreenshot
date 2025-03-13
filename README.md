@@ -5,6 +5,7 @@ Automatically create screenshots of your stats and save it as PNG, as who got th
 
 ## Supported Trackers:
     - Aither (ATH)
+    - Anthelion (ANT)
     - Bluetopia (BLU)
     - Reelflix (RF)
     - Speedapp (SP)
