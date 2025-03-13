@@ -12,11 +12,11 @@ auto_2fa = false
 [wanted-trackers]
 trackers = ["aither", "animetorrents", "animebytes", "anthelion", "beyond-hd", "blutopia", "broadcasthenet", "cathode-raytube", "filelist", "gazellegames", "greatposterwall", "hdtorrents",
 			"huno", "jme", "lst",  "morethantv", "myanonamouse",  "nebulance", "oldtoons", "orpheus", "passthepopcorn", "redacted", "reelflix", "skipthecommercials",
-			"skipthetrailers", "speedapp", "swarmazon", "thedarkcommunity", "torrentleech"]
+			"skipthetrailers", "speedapp", "swarmazon", "thedarkcommunity", "torrentleech", "tv-vault"]
 
 # Reference: ["aither", "animetorrents", "animebytes", "anthelion", "beyond-hd", "blutopia", "broadcasthenet", "cathode-raytube", "filelist", "gazellegames", "greatposterwall", "hdtorrents",
 			"huno", "jme", "lst",  "morethantv", "myanonamouse",  "nebulance", "oldtoons", "orpheus", "passthepopcorn", "redacted", "reelflix", "skipthecommercials",
-			"skipthetrailers", "speedapp", "swarmazon", "thedarkcommunity", "torrentleech"]
+			"skipthetrailers", "speedapp", "swarmazon", "thedarkcommunity", "torrentleech", "tv-vault"]
 
 #Edit the trackers you want to use with your details.
 [aither]
@@ -179,6 +179,11 @@ profile_url = https://oldtoons.world/users/XXX
 username = YOUR USERNAME
 password = YOUR PASSWORD
 profile_url = https://redacted.sh/user.php?id=XXX
+
+[tv-vault]
+username = YOUR USERNAME
+password = YOUR PASSWORD
+profile_url = https://tv-vault.me/user.php?id=XXX
 
 
 #GitHub: https://github.com/KlevGG/TrackerScreenshot
