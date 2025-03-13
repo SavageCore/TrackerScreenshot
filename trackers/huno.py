@@ -20,7 +20,7 @@ class HunoTracker(BaseTracker):
         # Open the profile URL
         self.driver.get(profile_url)
 
-        if self.driver.find_elements(By.ID, "challenge-running"):
+        if self.driver.find_elements(By.XPATH, "//*[contains(text(), 'Verify you are human by completing the action below.')]"):
             print(
                 "Please solve the challenge and press enter to continue or type 'n' and press enter to skip."
             )
