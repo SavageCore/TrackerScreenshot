@@ -10,11 +10,11 @@ auto_2fa = false
 
 # List of supported trackers. Remove the trackers that you don't want to screenshot. Only keep what you want.
 [wanted-trackers]
-trackers = ["aither", "animetorrents", "animebytes", "anthelion", "beyond-hd", "blutopia", "broadcasthenet", "cathode-raytube", "filelist", "gazellegames", "greatposterwall", "hdtorrents",
+trackers = ["aither", "animetorrents", "animebytes", "anthelion", "beyond-hd", "blutopia", "broadcasthenet", "cathode-raytube", "deepbassnine", "filelist", "gazellegames", "greatposterwall", "hdtorrents",
 			"huno", "jme", "lst",  "morethantv", "myanonamouse",  "nebulance", "oldtoons", "orpheus", "passthepopcorn", "redacted", "reelflix", "skipthecommercials",
 			"skipthetrailers", "speedapp", "swarmazon", "thedarkcommunity", "torrentleech", "tv-vault"]
 
-# Reference: ["aither", "animetorrents", "animebytes", "anthelion", "beyond-hd", "blutopia", "broadcasthenet", "cathode-raytube", "filelist", "gazellegames", "greatposterwall", "hdtorrents",
+# Reference: ["aither", "animetorrents", "animebytes", "anthelion", "beyond-hd", "blutopia", "broadcasthenet", "cathode-raytube", "deepbassnine", "filelist", "gazellegames", "greatposterwall", "hdtorrents",
 			"huno", "jme", "lst",  "morethantv", "myanonamouse",  "nebulance", "oldtoons", "orpheus", "passthepopcorn", "redacted", "reelflix", "skipthecommercials",
 			"skipthetrailers", "speedapp", "swarmazon", "thedarkcommunity", "torrentleech", "tv-vault"]
 
@@ -184,6 +184,11 @@ profile_url = https://redacted.sh/user.php?id=XXX
 username = YOUR USERNAME
 password = YOUR PASSWORD
 profile_url = https://tv-vault.me/user.php?id=XXX
+
+[deepbassnine]
+username = YOUR USERNAME
+password = YOUR PASSWORD
+profile_url = https://deepbassnine.com/user.php?id=XXX
 
 
 #GitHub: https://github.com/KlevGG/TrackerScreenshot
