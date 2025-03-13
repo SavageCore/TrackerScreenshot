@@ -32,6 +32,7 @@ if "auto_2fa" in config["settings"] and config["settings"]["auto_2fa"] == "true"
             config.write(configfile)
 
     twofa_trackers = [
+        "aither",
         "blutopia",
         "huno",
         "redacted",
