@@ -47,7 +47,7 @@ class BlutopiaTracker(BaseTracker):
                     code = input("Please enter the 2FA code: ")
                 code_field.send_keys(code)
         except NoSuchElementException:
-                print("No 2FA required, continuing login process.")
+            print("No 2FA required, continuing login process.")
 
     def take_screenshot(self, tracker_name, is_load_at_runtime=False):
         super().take_screenshot(self.tracker_name)
