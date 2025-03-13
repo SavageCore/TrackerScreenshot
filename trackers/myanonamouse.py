@@ -10,6 +10,11 @@ class MyanonamouseTracker(BaseTracker):
     def login(self):
         super().login()
 
+    def enter_credentials(self):
+        username_field = self.driver.find_element(By.NAME, "email")
+
+        super().enter_credentials(username_field)
+
     def click_login_button(self):
         login_button = self.driver.find_element(By.CLASS_NAME, "btn")
         login_button.click()
