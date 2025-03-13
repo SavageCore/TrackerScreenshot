@@ -35,6 +35,7 @@ Automatically create screenshots of your stats and save it as PNG, as who got th
     - Oldtoons (OTW)
     - TV-Vault (TVV)
     - DEEPBASSNiNE (DB9)
+    - PixelCove (PxC)
 
 It's easy to add new trackers. You can request it here or add it yourself.
 
